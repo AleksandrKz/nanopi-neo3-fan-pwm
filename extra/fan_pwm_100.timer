@@ -1,0 +1,10 @@
+[Unit]
+Description=Set speed fan to 100%
+
+
+[Timer]
+OnCalendar=08:00
+OnUnitActiveSec=12h
+
+[Install]
+WantedBy=timers.target
